@@ -38,9 +38,32 @@ header{
     border: 2px solid black;
 }
 .score{
-    height: 30vmin;
     width: 100%;
     display: flex;
     justify-content: center;
     gap: 2rem;
+}
+.you{
+    text-align: center;
+}
+.comp{
+    text-align: center;
+}
+.you p, .comp p{
+    font-size: 8vmin;
+}
+.winmsg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: bisque;
+}
+.reset{
+    border: none;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 10rem;
+    font-size: 1rem; 
 }

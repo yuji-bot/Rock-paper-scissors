@@ -13,26 +13,29 @@
     </header>
     <section class="game">
         <div class="signs">
-            <div class="sign">
+            <div class="sign" id="stone">
                 <img src="stone.png" alt="">
             </div>
-            <div class="sign">
+            <div class="sign" id="paper">
                 <img src="paper.png" alt="">
             </div>
-            <div class="sign">
+            <div class="sign" id="scissors">
                 <img src="scissors.png" alt="">
             </div>
         </div>
         <div class="score">
             <div class="you">
                 <h1>You</h1>
+                <p id="yscore">0</p>
             </div>
             <div class="comp">
                 <h1>Comp</h1>
+                <p id="cscore">0</p>
             </div>
         </div>
-        <div class="reset">
-            <button>reset</button>
+        <div class="winmsg">
+            <p id="msg">play your move</p>
+            <button class="reset">reset</button>
         </div>
 
     </section>
