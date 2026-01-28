@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 20vmin;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.game{
+    height: 50vmin;
+    width: 100%;
+    background: gray;
+}
+.signs{
+    height: 30vmin;
+    width: 100%;
+    background: rgb(69, 69, 69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.sign{
+    border-radius: 50%;
+    height: 15vmin;
+    width: 15vmin;
+}
+.sign img{
+    width: 14vmin;
+    height: 14vmin;
+}
+.sign:hover{
+    border: 2px solid black;
+}
+.score{
+    height: 30vmin;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
